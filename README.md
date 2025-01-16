@@ -38,10 +38,7 @@ Heroes Task Library — это библиотека на языке Java, пре
 - **Метод**: `List<Edge> getTargetPath(Unit attackUnit, Unit targetUnit, List<Unit> existingUnitList)`
 - **Назначение**: Находит кратчайший путь между атакующим и атакуемым юнитами с использованием алгоритма Дейкстры.
 - **Сложность**:
-  - Инициализация данных: \( O(WIDTH 	imes HEIGHT) \), где WIDTH = 27, HEIGHT = 21.
-  - Поиск пути (алгоритм Дейкстры): \( O((WIDTH 	imes HEIGHT) \cdot \log(WIDTH 	imes HEIGHT)) \).
-  - Построение пути: \( O(WIDTH 	imes HEIGHT) \).
-  - Итоговая сложность: \( O((WIDTH 	imes HEIGHT) \cdot \log(WIDTH 	imes HEIGHT)) \).
+  - Итоговая сложность: \( O((WIDTH * HEIGHT) \ \log(WIDTH * HEIGHT)) \).
 
 ## Использование
 1. Подключите файл `out/artifacts/HeroesTaskLib.jar` к проекту Heroes.
